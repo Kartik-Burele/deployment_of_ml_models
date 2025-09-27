@@ -16,6 +16,7 @@ jobs:
         - name: Run tests
           run: |
             pytest test_math_utils.py
+            pytest test_data_validation.py
         - name: Run training script
           run: |
             python train.py
